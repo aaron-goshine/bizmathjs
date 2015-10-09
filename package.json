@@ -1,0 +1,24 @@
+{
+  "name": "bizmathjs",
+  "version": "0.0.1",
+  "description": "Common business math formulars developed into a javascript lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-goshine/bizmathjs.git"
+  },
+  "keywords": [
+    "business",
+    "mathetmatics",
+    "calculators"
+  ],
+  "author": "Aaron Goshine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaron-goshine/bizmathjs/issues"
+  },
+  "homepage": "https://github.com/aaron-goshine/bizmathjs#readme"
+}
