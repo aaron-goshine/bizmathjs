@@ -4,7 +4,7 @@
   "description": "Common business math formulars developed into a javascript lib",
   "main": "index.js",
   "scripts": {
-    "test": "test "
+    "test": "karma start karm.config.js "
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/aaron-goshine/bizmathjs/issues"
   },
-  "homepage": "https://github.com/aaron-goshine/bizmathjs#readme"
+  "homepage": "https://github.com/aaron-goshine/bizmathjs#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6"
+  }
 }
