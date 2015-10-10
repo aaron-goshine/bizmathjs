@@ -1,0 +1,5 @@
+
+Bizmath.depreciation = function (){
+//TODO
+}
+
