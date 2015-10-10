@@ -7,20 +7,20 @@
  *the goods.
  *MARKUP is selling price - cost
  */
-bizmath.percentMarkupBaseOnCost = function (cost, markup){
+Bizmath.percentMarkupBaseOnCost = function (cost, markup){
   return markup / cost;
 }
 
-bizmath.valueMarkupBaseOncost = function(markupPercentage){
+Bizmath.valueMarkupBaseOncost = function(markupPercentage){
   return markupPercentage / (1 - markPriceMarkUp)
 }
 
-bizmath.markupByPercent  = function (cost,percent){
+Bizmath.markupByPercent  = function (cost,percent){
  var mkup = cost + (cost * (percent / 100))
   return mkup;
 
 }
 
-bizmath.markupByUnits = function (cost,units){
+Bizmath.markupByUnits = function (cost,units){
   return cost + units;
 }
