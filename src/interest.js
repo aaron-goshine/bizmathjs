@@ -1,15 +1,15 @@
-
-Bizmath.simpleInterest = function (){
+var interest = {};
+interest.simple = function (){
 //TODO
 }
 
-Bizmath.compoundInterest = function(){
+interest.compound = function(){
   //TODO
 }
 
-Bizmath.interestByDays = function () {
+interest.daily = function () {
+
   //TODO
 }
 
-
-
+export default interest;

@@ -1,5 +1,4 @@
 
-Bizmath.depreciation = function (){
-//TODO
+var depreciation = {
 }
-
+export default depreciation;

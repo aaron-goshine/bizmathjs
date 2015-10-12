@@ -1,14 +1,16 @@
+var Payroll = {}
 
-Bizmath.payByHour = function (reqularHours, reqularHoursRate, overTimeHours, overTimeHoursRate){
+Payroll.byHour = function (reqularHours, reqularHoursRate, overTimeHours, overTimeHoursRate){
   return (reqularHours * reqularHoursRate + overTimeHours * overTimeHoursRate);
 }
 
-Bizmath.payByUnit = function(acceptedUnits, unitPice){
+Payroll.byUnit = function(acceptedUnits, unitPice){
   return acceptedUnits * unitPice;
 }
 
-Bizmath.payByCommission = function (sales, commisionPercentRate) {
+Payroll.byCommission = function (sales, commisionPercentRate) {
   return sales * (commisionPercentRate / 100);
 }
 
+export default Payroll;
 
