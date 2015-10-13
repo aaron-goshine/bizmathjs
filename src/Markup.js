@@ -1,10 +1,10 @@
 var Markup = {};
 
 Markup.byValue = function (originalCost, markup){
-  return markup + cost;
+  return markup + originalCost;
 };
 
-Markup.byPercentage = function(originalCost, precentage){
+Markup.byPercentage = function(originalCost, percentage){
   return  originalCost + (originalCost * (percentage / 100))
   return mkup;
 };
