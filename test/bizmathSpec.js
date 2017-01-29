@@ -1,8 +1,7 @@
-var Bizmath = require("../index");
-describe("Bizmathjs", function() {
-  it("does Bizmath exist", function() {
+/* global it expect describe */
+var Bizmath = require('../index');
+describe('Bizmathjs', function () {
+  it('does Bizmath exist', function () {
     expect(!Bizmath).toBe(false);
   });
-
-
 });

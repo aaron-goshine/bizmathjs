@@ -1,15 +1,13 @@
 var interest = {};
-interest.simple = function (){
-//TODO
-}
+interest.simple = function () {
+// -
+};
 
-interest.compound = function(){
-  //TODO
-}
+interest.compound = function () {
+// -
+};
 
 interest.daily = function () {
-
-  //TODO
-}
+};
 
 export default interest;
