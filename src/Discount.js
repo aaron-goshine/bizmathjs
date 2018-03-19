@@ -1,4 +1,4 @@
-var Discount = {};
+var discount = {};
 /**
  * Calculate a discounted price
  * @param {number} originalPrice
@@ -6,12 +6,12 @@ var Discount = {};
  * @returns {number}
  */
 
-Discount.getValue = function (originalPrice, discountPercentage) {
+discount.getValue = function (originalPrice, discountPercentage) {
   return originalPrice * (discountPercentage / 100);
 };
 
-Discount.getPrice = function (originalPrice, discountValue) {
+discount.getPrice = function (originalPrice, discountValue) {
   return originalPrice - discountValue;
 };
 
-export default Discount;
+export default discount;

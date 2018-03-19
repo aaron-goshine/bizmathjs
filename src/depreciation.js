@@ -1,4 +1,3 @@
-var depreciation = {
-};
+var deprecation = {};
 
-export default depreciation;
+export default deprecation;

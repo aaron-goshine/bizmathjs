@@ -1,15 +1,15 @@
-var Markdown = {};
+var markdown = {};
 
-Markdown.getValue = function (originalPrice, markdownPrice) {
+markdown.getValue = function (originalPrice, markdownPrice) {
   return originalPrice - markdownPrice;
 };
 
-Markdown.getPercentage = function (originalPrice, markdown) {
+markdown.getPercentage = function (originalPrice, markdown) {
   return 100 * ((originalPrice - markdown) / originalPrice);
 };
 
-Markdown.byPercentage = function (originalPrice, percentage) {
+markdown.byPercentage = function (originalPrice, percentage) {
   return originalPrice - (originalPrice * (percentage / 100));
 };
 
-export default Markdown;
+export default markdown;

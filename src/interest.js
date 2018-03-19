@@ -1,4 +1,5 @@
 var interest = {};
+
 interest.simple = function () {
 // -
 };
