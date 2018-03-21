@@ -1,10 +1,10 @@
 {
   "name": "bizmathjs",
   "version": "0.0.1",
-  "description": "Common business math formulars developed into a javascript lib",
+  "description": "Common business Math formulars developed into a JavaScript library",
   "main": "index.js",
   "scripts": {
-    "test": "karma start karma.conf"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "business",
-    "mathetmatics",
+    "mathematics",
     "calculators"
   ],
   "author": "Aaron Goshine",
@@ -22,22 +22,11 @@
   },
   "homepage": "https://github.com/aaron-goshine/bizmathjs#readme",
   "devDependencies": {
-    "babel": "^5.8.23",
-    "babel-core": "^5.8.25",
     "babel-loader": "",
-    "gulp": "",
-    "gulp-concat": "",
-    "gulp-rename": "",
-    "gulp-uglify": "",
-    "jasmine": "",
-    "jasmine-core": "",
-    "karma": "",
-    "karma-babel-preprocessor": "",
-    "karma-chrome-launcher": "",
-    "karma-jasmine": "",
-    "karma-phantomjs-launcher": "",
-    "karma-webpack": "",
-    "phantomjs": "",
-    "webpack": ""
+    "webpack": "4.1.1",
+    "webpack-cli": "2.0.12"
+  },
+  "dependencies": {
+    "mocha": "5.0.4"
   }
 }
