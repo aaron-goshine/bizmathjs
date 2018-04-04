@@ -11,4 +11,4 @@ interest.compound = function () {
 interest.daily = function () {
 };
 
-export default interest;
+module.exports = interest;

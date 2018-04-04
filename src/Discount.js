@@ -14,4 +14,5 @@ discount.getPrice = function (originalPrice, discountValue) {
   return originalPrice - discountValue;
 };
 
-export default discount;
+module.exports = discount;
+

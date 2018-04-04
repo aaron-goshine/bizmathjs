@@ -1,3 +1,3 @@
 var deprecation = {};
 
-export default deprecation;
+module.exports = deprecation;

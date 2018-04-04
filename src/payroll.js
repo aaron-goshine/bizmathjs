@@ -12,5 +12,5 @@ payroll.byCommission = function (sales, commisionPercentRate) {
   return sales * (commisionPercentRate / 100);
 };
 
-export default payroll;
+module.exports = payroll;
 

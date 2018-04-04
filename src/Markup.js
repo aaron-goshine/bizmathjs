@@ -12,4 +12,4 @@ markup.was = function (originalCost, sellingCost) {
   return sellingCost - originalCost;
 };
 
-export default markup;
+module.exports = markup;

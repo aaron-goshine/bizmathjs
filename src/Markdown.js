@@ -12,4 +12,4 @@ markdown.byPercentage = function (originalPrice, percentage) {
   return originalPrice - (originalPrice * (percentage / 100));
 };
 
-export default markdown;
+module.exports = markdown;
