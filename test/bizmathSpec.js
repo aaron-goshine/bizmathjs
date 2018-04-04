@@ -1,7 +1,20 @@
 /* global it expect describe */
+var assert = require('assert');
 var Bizmath = require('../index');
+
 describe('Bizmathjs', function () {
   it('does Bizmath exist', function () {
-    expect(!Bizmath).toBe(false);
+    assert.equal(typeof Bizmath, 'object');
+  });
+
+  it('Bizmath has properties');
+  var methodNames = [
+    'interest',
+    'payroll',
+    'discount',
+    'markdown',
+    'markup'];
+  methodNames.forEach(function (name) {
+    assert.equal(typeof Bizmath[name], 'object');
   });
 });
