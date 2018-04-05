@@ -19,9 +19,24 @@ The monthly payment based on the true rate is discussed below.
 */
 
 var simple = {
-  rate: function () {},
-  interest: function () {},
-  cost: function () {}
+  /**
+  * simple interest rate calculator
+  *
+  * @name rate
+  * @function
+  * @param {number} I - interest
+  * @param {number} C - the initial cost before interest
+  * @param {number} T - time in years
+  * @returns {number} return the interest rate as percentage
+  */
+
+  rate: function (I, C, T) {
+    var R = (I / (C * T));
+    R = Math.round(R * 10000);
+    return R / 100;
+  },
+  interest: function (R, C, T) {},
+  cost: function (I, R, T) {}
 };
 
 /**
