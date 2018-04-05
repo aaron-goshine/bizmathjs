@@ -35,7 +35,10 @@ var simple = {
     R = Math.round(R * 10000);
     return R / 100;
   },
-  interest: function (R, C, T) {},
+  interest: function (R, C, T) {
+    var I = (R * C * T) / 100;
+    return Math.round(I);
+  },
   cost: function (I, R, T) {}
 };
 
