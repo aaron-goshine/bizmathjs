@@ -87,14 +87,16 @@ example
 * which gives $405.60. (This differs by a few cents from
 * the above due to rounding in the tables.)
 */
+var real = {};
 
-interest.compound = function () {
+real.compound = function () {
 // -
 };
 
-interest.daily = function () {
+real.daily = function () {
 };
 
 module.exports = {
-  simple: simple
+  simple: simple,
+  real: real
 };

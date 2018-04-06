@@ -29,6 +29,9 @@ describe('Bizmathjs interest', function () {
     assert.equal(typeof interest.simple.cost, 'function');
   });
 
-  it('compound interest');
+  it('real interest', function () {
+    assert.equal(typeof interest.real, 'object');
+  });
+
   it('compound interest');
 });
