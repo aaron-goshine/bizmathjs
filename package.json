@@ -4,7 +4,8 @@
   "description": "Common business Math formulars developed into a JavaScript library",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha -w"
   },
   "repository": {
     "type": "git",

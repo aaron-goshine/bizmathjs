@@ -7,7 +7,7 @@ describe('Bizmathjs', function () {
     assert.equal(typeof Bizmath, 'object');
   });
 
-  it('Bizmath has properties');
+  it('Bizmath has properties', function () {
   var methodNames = [
     'interest',
     'payroll',
@@ -16,5 +16,6 @@ describe('Bizmathjs', function () {
     'markup'];
   methodNames.forEach(function (name) {
     assert.equal(typeof Bizmath[name], 'object');
+  });
   });
 });
