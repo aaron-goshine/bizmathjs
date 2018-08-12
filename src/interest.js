@@ -1,4 +1,3 @@
-var interest = {};
 /**
  *
  * Simple Interest
@@ -38,16 +37,16 @@ var simple = {
   */
 
   rate: function (I, C, T) {
-    var R = (I / (C * T));
-    R = Math.round(R * 10000);
-    return R / 100;
+    var R = (I / (C * T))
+    R = Math.round(R * 10000)
+    return R / 100
   },
   interest: function (R, C, T) {
-    var I = (R * C * T) / 100;
-    return Math.round(I);
+    var I = (R * C * T) / 100
+    return Math.round(I)
   },
   cost: function (I, R, T) {}
-};
+}
 
 /**
  *
@@ -87,16 +86,16 @@ example
 * which gives $405.60. (This differs by a few cents from
 * the above due to rounding in the tables.)
 */
-var real = {};
+var real = {}
 
 real.compound = function () {
 // -
-};
+}
 
 real.daily = function () {
-};
+}
 
 module.exports = {
   simple: simple,
   real: real
-};
+}
