@@ -24,10 +24,10 @@
   "homepage": "https://github.com/aaron-goshine/bizmathjs#readme",
   "devDependencies": {
     "babel-loader": "",
-    "webpack": "4.1.1",
-    "webpack-cli": "2.0.12"
+    "webpack": "",
+    "webpack-cli": ""
   },
   "dependencies": {
-    "mocha": "5.0.4"
+    "mocha": ""
   }
 }
