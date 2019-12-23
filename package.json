@@ -28,6 +28,9 @@
     "webpack-cli": ""
   },
   "dependencies": {
-    "mocha": ""
+    "babel-loader": "^8.0.6",
+    "mocha": "^6.2.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   }
 }
