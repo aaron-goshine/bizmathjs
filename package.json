@@ -24,6 +24,7 @@
   "homepage": "https://github.com/aaron-goshine/bizmathjs#readme",
   "devDependencies": {
     "babel-loader": "",
+    "eslint": "^8.47.0",
     "webpack": "",
     "webpack-cli": ""
   },
